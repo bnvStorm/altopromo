@@ -1,0 +1,25 @@
+.news-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+    min-height: 465px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius:8px;
+
+}
+.preview_picture{
+    width: 100%;
+}
+.preview_picture_link{
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
